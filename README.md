@@ -30,8 +30,8 @@ doc_cya runs entirely on your local machine using standard Python 3:
 ## Quick Start
 
 ### 1. Download
-
-curl -fsSL [https://raw.githubusercontent.com/warknoc/doc_cya/main/doc_cya.py](https://raw.githubusercontent.com/warknoc/doc_cya/main/doc_cya.py) -o doc_cya.py
+```bash
+curl -fsSL https://raw.githubusercontent.com/warknoc/doc_cya/main/doc_cya.py -o doc_cya.py
 
 ### 2. Run
 
@@ -43,32 +43,37 @@ python doc_cya.py agreement.txt
 
 ---
 
+### The Example Output
+
+```markdown
 ## Example Output
 
-# =============================================
-DOC_CYA PRE-FLIGHT AUDIT: sample_agreement.docx
+```text
+====================================================================
+  DOC_CYA PRE-FLIGHT AUDIT: sample_agreement.docx
+====================================================================
 
 Audit Totals: 2 Critical | 1 Warning | 1 Gating Requirements
 
 [CRITICAL]   Line 42    | Total IP Assignment
-Risk   : Demands complete transfer of title, ownership, and copyright.
-Context: "Vendor assigns all right, title, and interest in all developments..."
+             Risk   : Demands complete transfer of title, ownership, and copyright.
+             Context: "Vendor assigns all right, title, and interest in all developments..."
 
 [CRITICAL]   Line 118   | Uncapped Liability
-Risk   : Explicit absence of standard commercial liability caps.
-Context: "Liability under this section shall be unlimited..."
+             Risk   : Explicit absence of standard commercial liability caps.
+             Context: "Liability under this section shall be unlimited..."
 
 [WARNING]    Line 88    | Extended Payment Terms
-Risk   : Extended payment schedule creates severe working capital delays.
-Context: "All undisputed invoices payable on Net 90 terms..."
+             Risk   : Extended payment schedule creates severe working capital delays.
+             Context: "All undisputed invoices payable on Net 90 terms..."
 
 [GATE]       Line 12    | Security Clearance
-Risk   : Mandatory active federal security clearance gate.
-Context: "Key personnel must maintain an active Secret clearance..."
+             Risk   : Mandatory active federal security clearance gate.
+             Context: "Key personnel must maintain an active Secret clearance..."
 
----
-
-# VERDICT: [CRITICAL RISK] PREDATORY CLAUSES / DEALBREAKERS DETECTED
+--------------------------------------------------------------------
+VERDICT: [CRITICAL RISK] PREDATORY CLAUSES / DEALBREAKERS DETECTED
+====================================================================
 
 ---
 

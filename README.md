@@ -42,7 +42,7 @@ python doc_cya.py agreement.txt
 
 ### The Example Output
 
-=====================================
+============================================
   DOC_CYA PRE-FLIGHT AUDIT: sample_agreement.docx
 ====================================================================
 

@@ -49,7 +49,7 @@ python doc_cya.py agreement.txt
 
 ## Example Output
 
-# ====================================================================
+# =============================================
 DOC_CYA PRE-FLIGHT AUDIT: sample_agreement.docx
 
 Audit Totals: 2 Critical | 1 Warning | 1 Gating Requirements

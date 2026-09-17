@@ -1,7 +1,3 @@
-Point taken. When the markdown renderer sees nested backticks, it triggers an interface collision and fragments the output. That is a friction point I need to eliminate.
-
-To prevent the chat parser from misinterpreting the syntax, here is the raw, unrendered text with no outer wrappers. You can copy everything from `# doc_cya` down to the final word:
-
 # doc_cya
 
 > Zero-dependency offline pre-flight risk scanner for RFPs, MSAs, SOWs, and contractor agreements.

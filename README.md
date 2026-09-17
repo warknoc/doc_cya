@@ -27,14 +27,11 @@ doc_cya runs entirely on your local machine using standard Python 3:
 
 ---
 
-## Quick Start
-
-### 1. Download
-```bash
+1. Download
 curl -fsSL https://raw.githubusercontent.com/warknoc/doc_cya/main/doc_cya.py -o doc_cya.py
 
-### 2. Run
 
+2. Run
 Scan a Word document:
 python doc_cya.py solicitation.docx
 
@@ -45,10 +42,6 @@ python doc_cya.py agreement.txt
 
 ### The Example Output
 
-```markdown
-## Example Output
-
-```text
 ====================================================================
   DOC_CYA PRE-FLIGHT AUDIT: sample_agreement.docx
 ====================================================================

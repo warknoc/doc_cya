@@ -17,9 +17,10 @@
 
 ## Why Local & Zero-Dependency?
 
-Most enterprise contract analyzers require uploading sensitive documents, proprietary proposals, or unpublished patent filings to third-party cloud servers and LLMs. 
+Most enterprise contract analyzers require uploading sensitive documents, proprietary proposals, or unpublished patent filings to third-party cloud servers and LLMs.
 
 `doc_cya` runs entirely on your local machine using standard Python 3:
+
 * **No external libraries:** Natively parses `.docx` files using built-in `zipfile` and `xml.etree`.
 * **Zero API keys or telemetry:** Your contract text never leaves your memory space.
 * **Instant runtime:** Audits large solicitation dumps in sub-second time.
@@ -68,11 +69,11 @@ VERDICT: [CRITICAL RISK] PREDATORY CLAUSES / DEALBREAKERS DETECTED
 ====================================================================
 
 
+
 Support & Open Source Tip Rail
 doc_cya is open-source utility software licensed under MIT. If it saved you from a toxic contract or saved your team hours of review:
 
 USDC / Ethereum: 0x9805F8fd4A23Dd39cce11c03C10e6f966B1D6755
-
 
 License
 MIT License. Free for commercial and private use.

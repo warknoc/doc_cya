@@ -28,8 +28,13 @@ doc_cya runs entirely on your local machine using standard Python 3:
 ---
 
 1. Download
-curl -fsSL https://raw.githubusercontent.com/warknoc/doc_cya/main/doc_cya.py -o doc_cya.py
+Windows (PowerShell):
 
+curl.exe -fsSL https://raw.githubusercontent.com/warknoc/doc_cya/main/doc_cya.py -o doc_cya.py
+
+macOS / Linux:
+
+curl -fsSL https://raw.githubusercontent.com/warknoc/doc_cya/main/doc_cya.py -o doc_cya.py
 
 2. Run
 Scan a Word document:
